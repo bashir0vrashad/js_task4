@@ -1,0 +1,94 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+/* 1ci tapsiriq */
+
+.widget {
+  width: 250px;
+  background-color: white;
+  border: 2px solid black;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.context {
+  margin-top: 15px;
+}
+.change-color {
+  background-color: limegreen;
+  padding: 15px;
+  margin: 15px;
+  color: white;
+  border: none;
+}
+/* ------------------------------ */
+
+/* 2ci tapsiriq */
+.calculator {
+  border: 1px solid black;
+  padding: 20px;
+  width: 300px;
+  background-color: black;
+}
+.button_list-item {
+  width: 60px;
+  padding: 10px;
+  border-radius: 25px;
+  font-size: 14px;
+  font-weight: 700;
+  border: none;
+  color: white;
+  background-color: rgb(70, 66, 66);
+}
+.button_list {
+  margin-bottom: 10px;
+}
+.result {
+  font-size: 18px;
+  text-align: right;
+  padding: 40px 15px;
+  background-color: rgb(70, 66, 66);
+  color: white;
+  margin: 15px auto;
+  overflow: auto;
+  border-radius: 15px;
+}
+.green {
+  background-color: forestgreen;
+}
+.light_blue {
+  background-color: rgb(40, 145, 214);
+}
+.blue {
+  background-color: blue;
+}
+/* ------------------------------ */
+
+/* 3cu tapsiriq */
+.staduim {
+  position: relative;
+  width: 900px;
+  height: 400px;
+  background-color: forestgreen;
+}
+.ball {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background-color: white;
+  transform: translate(-50%, -50%);
+  border: none;
+}
